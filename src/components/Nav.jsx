@@ -1,0 +1,19 @@
+import { AppBar, Box, Grid, Toolbar, Typography } from '@mui/material'
+import React from 'react'
+
+export default function Nav() {
+    return (
+        <Box sx={{ flexGrow: 1, maxWidth: "100%" }}>
+            <AppBar position="fixed">
+                <Toolbar>
+                    <Grid container direction="row" justifyContent="space-evenly" alignItems="center">
+                        <Typography variant="h6" >
+                            Nazareno Carlesso
+                        </Typography>
+                    </Grid>
+                </Toolbar>
+            </AppBar>
+            <Box sx={{ minHeight: "100px" }} />
+        </Box>
+    )
+}
