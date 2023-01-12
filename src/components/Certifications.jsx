@@ -1,16 +1,17 @@
-import { Grid, Paper, Typography } from '@mui/material'
+import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
 import Certification from './Certification'
 
 export default function Certifications({ certifications }) {
     return (
-        <Paper sx={{ width: "80vw", margin: "10px", padding: "10px" }} >
-            <Typography variant="h4" >
+        <Box sx={{ width: "80vw", margin: "10px", padding: "10px" }} >
+            <Typography variant="h4" sx={{ marginBottom: "12px", paddingLeft: "12px", borderLeft: "4px solid chartreuse", fontStyle: "italic" }} >
                 Certifications
             </Typography>
-            <Grid container direction="row" >
+            <Grid container direction="row" justifyContent="center" alignItems="center" >
                 {
-                    certifications.map(c => <Certification
+                    certifications.map((c, i) => <Certification
+                        key={i}
                         title={c.title}
                         image={c.image}
                         platform={c.platform}
@@ -19,6 +20,6 @@ export default function Certifications({ certifications }) {
                     />)
                 }
             </Grid>
-        </Paper>
+        </Box>
     )
 }

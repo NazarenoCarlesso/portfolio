@@ -2,12 +2,15 @@ export const projects = [
   {
     title: 'Rick and Morty',
     description: 'No description, website, or topics provided.',
-    gif: '',
+    gif: 'img/rick_and_morty.png',
     techs: ['javascript', 'react', 'redux'],
-    deploy: '',
+    deploy: 'https://nazarenocarlesso-rick-and-morty.netlify.app/',
     repository: 'https://github.com/NazarenoCarlesso/rick-and-morty'
   },
-  {
+]
+
+/*
+{
     title: 'Proyecto Individual',
     description: 'No description, website, or topics provided.',
     gif: '',
@@ -23,8 +26,8 @@ export const projects = [
     deploy: '',
     repository: ''
   }
-]
-
+  */
+ 
 export const certifications = [
   {
     title: 'Node: De cero a experto',
