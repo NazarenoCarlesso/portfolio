@@ -3,7 +3,7 @@ export const projects = [
     title: 'Rick and Morty',
     description: 'No description, website, or topics provided.',
     gif: 'img/rick_and_morty.png',
-    techs: ['javascript', 'react', 'redux'],
+    techs: ['javascript', 'react', 'redux', 'express'],
     deploy: 'https://nazarenocarlesso-rick-and-morty.netlify.app/',
     repository: 'https://github.com/NazarenoCarlesso/rick-and-morty'
   },
@@ -27,7 +27,7 @@ export const projects = [
     repository: ''
   }
   */
- 
+
 export const certifications = [
   {
     title: 'Node: De cero a experto',
@@ -53,7 +53,8 @@ export const certifications = [
 ]
 
 export const badges = {
-  javascript: "https://img.shields.io/badge/Javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E",
-  react: "https://img.shields.io/badge/React-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB",
-  redux: "https://img.shields.io/badge/Redux-%23593d88.svg?style=flat-square&logo=redux&logoColor=white",
+  javascript: "https://img.shields.io/badge/Javascript-black.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E",
+  react: "https://img.shields.io/badge/React-black.svg?style=flat-square&logo=react&logoColor=%2361DAFB",
+  redux: "https://img.shields.io/badge/Redux-black.svg?style=flat-square&logo=redux&logoColor=%23593d88",
+  express: "https://img.shields.io/badge/Express-black.svg?style=flat-square&logo=express&logoColor=%2361DAFB"
 }

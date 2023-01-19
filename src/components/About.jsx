@@ -5,7 +5,7 @@ export default function About() {
     return (
         <Box sx={{ width: "80vw", margin: "10px", padding: "10px" }} >
             <Grid container direction="row" justifyContent="center" alignItems="center" >
-                <Box sx={{ width: "500px" }} >
+                <Box sx={{ width: "450px", padding: "25px" }} >
                     <Typography variant="h6" sx={{ fontWeight: 300 }} >
                         HEY! 👋🏻 NICE TO SEE YOU, I'M
                     </Typography>
@@ -24,21 +24,23 @@ export default function About() {
                         </Button>
                     </Box>
                 </Box>
-                <Paper sx={{ backgroundColor: "#7fff00a6", rotate: "8deg" }} >
-                    <Paper sx={{ backgroundColor: "#7fff00e3", rotate: "-4deg" }} >
-                        <Box
-                            component="img"
-                            src="https://avatars.githubusercontent.com/u/95937325?v=4"
-                            sx={{
-                                width: "254px",
-                                height: "254px",
-                                border: "3px solid #b8ff70",
-                                boxShadow: "0px 0px 16px 4px #7fff004f",
-                                rotate: "-4deg"
-                            }}
-                        />
+                <Box sx={{ padding: "25px" }} >
+                    <Paper sx={{ backgroundColor: "#7fff00a6", rotate: "8deg" }} >
+                        <Paper sx={{ backgroundColor: "#7fff00e3", rotate: "-4deg" }} >
+                            <Box
+                                component="img"
+                                src="https://avatars.githubusercontent.com/u/95937325?v=4"
+                                sx={{
+                                    width: "254px",
+                                    height: "254px",
+                                    border: "3px solid #b8ff70",
+                                    boxShadow: "0px 0px 16px 4px #7fff004f",
+                                    rotate: "-4deg"
+                                }}
+                            />
+                        </Paper>
                     </Paper>
-                </Paper>
+                </Box>
             </Grid>
         </Box>
     )
