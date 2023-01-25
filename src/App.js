@@ -1,5 +1,5 @@
 import Projects from './components/Projects'
-import { certifications, projects } from './components/data'
+import { certifications, projects } from './data'
 import Certifications from './components/Certifications'
 import { createTheme, Grid, ThemeProvider } from '@mui/material'
 import Nav from './components/Nav'

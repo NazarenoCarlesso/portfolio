@@ -1,7 +1,7 @@
 import { Box, Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub'
-import { badges } from './data'
+import { badges } from '../data'
 
 export default function Project({ title, description, gif, techs, deploy, repository }) {
     return (
@@ -21,7 +21,7 @@ export default function Project({ title, description, gif, techs, deploy, reposi
                 }
             </CardContent>
             <CardActions>
-                <Button variant="contained" href={repository} size="small" sx={{ position: "absolute", marginBottom: "678px", marginLeft: "424px" }} >
+                <Button variant="contained" href={repository} size="small" sx={{ position: "absolute", marginBottom: "678px" }} >
                     <GitHubIcon />
                 </Button>
             </CardActions>
