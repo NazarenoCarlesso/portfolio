@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: 'Pokemon Pokedex',
+    description: 'Learn about your favorite Pokémons in our Pokedex to be a better pokémon master',
+    gif: 'img/pokemon-pokedex.gif',
+    techs: ['javascript', 'react', 'redux', 'postgre', 'sequelize', 'node', 'express', 'mui', 'html5', 'css3', 'vercel'],
+    deploy: 'https://pokemon-pokedex-nazarenocarlesso.vercel.app',
+    repository: 'https://github.com/NazarenoCarlesso/pokemon'
+  },
+  {
     title: 'Rick and Morty',
     description: 'Find your favorite Rick and Morty characters and build a deck with collectionable cards',
     gif: 'img/rick-and-morty.gif',
@@ -7,14 +15,6 @@ export const projects = [
     deploy: 'https://nazarenocarlesso-rick-and-morty.netlify.app',
     repository: 'https://github.com/NazarenoCarlesso/rick-and-morty'
   },
-  {
-    title: 'Pokemon Pokedex',
-    description: 'Learn about your favorite Pokémons in our Pokedex to be a better pokémon master',
-    gif: '',
-    techs: ['javascript', 'react', 'redux', 'postgre', 'sequelize', 'node', 'express', 'mui', 'html5', 'css3', 'vercel'],
-    deploy: 'https://pokemon-pokedex-nazarenocarlesso.vercel.app',
-    repository: 'https://github.com/NazarenoCarlesso/pokemon'
-  }
 ]
 
 export const certifications = [

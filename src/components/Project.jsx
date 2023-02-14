@@ -16,7 +16,7 @@ export default function Project({ title, description, gif, techs, deploy, reposi
                     {description}
                 </Typography>
                 {
-                    techs.map(t => <Box component="img" src={badges[t]} alt={t} sx={{ margin: "1px" }} />)
+                    techs.map((t, i) => <Box key={i} component="img" src={badges[t]} alt={t} sx={{ margin: "1px" }} />)
                 }
             </CardContent>
             <CardActions sx={{ padding: 0 }}>

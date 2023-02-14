@@ -19,7 +19,7 @@ export default function About() {
                         from  Córdoba, Argentina
                     </Typography>
                     <Box>
-                        <Button variant="contained" size="large" sx={{ borderRadius: "1.5rem", marginTop: "16px" }} >
+                        <Button href="https://www.linkedin.com/in/nazarenocarlesso" variant="contained" size="large" sx={{ borderRadius: "1.5rem", marginTop: "16px" }} >
                             Contact me
                         </Button>
                     </Box>
