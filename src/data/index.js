@@ -4,9 +4,17 @@ export const projects = [
     description: 'Find your favorite Rick and Morty characters and build a deck with collectionable cards',
     gif: 'img/rick-and-morty.gif',
     techs: ['javascript', 'react', 'redux', 'node', 'express', 'mui', 'html5', 'css3', 'netlify'],
-    deploy: 'https://nazarenocarlesso-rick-and-morty.netlify.app/',
+    deploy: 'https://nazarenocarlesso-rick-and-morty.netlify.app',
     repository: 'https://github.com/NazarenoCarlesso/rick-and-morty'
   },
+  {
+    title: 'Pokemon Pokedex',
+    description: 'Learn about your favorite Pokémons in our Pokedex to be a better pokémon master',
+    gif: '',
+    techs: ['javascript', 'react', 'redux', 'postgre', 'sequelize', 'node', 'express', 'mui', 'html5', 'css3', 'vercel'],
+    deploy: 'https://pokemon-pokedex-nazarenocarlesso.vercel.app',
+    repository: 'https://github.com/NazarenoCarlesso/pokemon'
+  }
 ]
 
 export const certifications = [
@@ -43,4 +51,7 @@ export const badges = {
   html5: "https://img.shields.io/badge/HTML5-black.svg?style=flat-square&logo=html5&logoColor=%23E34F26",
   css3: "https://img.shields.io/badge/CSS3-black.svg?style=flat-square&logo=css3&logoColor=%231572B6",
   netlify: "https://img.shields.io/badge/Netlify-black.svg?style=flat-square&logo=netlify&logoColor=#00C7B7",
+  postgre: "https://img.shields.io/badge/Postgres-black.svg?style=flat-square&logo=postgresql&logoColor=%23316192",
+  sequelize: "https://img.shields.io/badge/Sequelize-black?style=flat-square&logo=Sequelize&logoColor=%52B0E7",
+  vercel: "https://img.shields.io/badge/Vercel-black.svg?style=flat-square&logo=vercel&logoColor=%ededed",
 }
