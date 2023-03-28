@@ -15,9 +15,11 @@ export default function Certification({ title, image, platform, duration, link }
                     <Typography variant="subtitle2" color="primary" >
                         {platform}
                     </Typography>
-                    <Typography variant="subtitle2" color="primary" >
-                        {duration} hs
-                    </Typography>
+                    {duration
+                        ? <Typography variant="subtitle2" color="primary" >
+                            {duration} hs
+                        </Typography>
+                        : null}
                 </Grid>
             </CardContent>
         </Card>

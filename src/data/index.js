@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: 'Medilab Manager',
+    description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
+    gif: 'img/medilab-manager.gif',
+    techs: ['javascript', 'react', 'redux', 'postgre', 'sequelize', 'node', 'express', 'jwt', 'mui', 'html5', 'css3', 'vercel'],
+    deploy: 'https://medilab-manager.vercel.app',
+    repository: 'https://github.com/NazarenoCarlesso/medilab-manager'
+  },
+  {
     title: 'Pokemon Pokedex',
     description: 'Learn about your favorite Pokémons in our Pokedex to be a better pokémon master',
     gif: 'img/pokemon-pokedex.gif',
@@ -39,6 +47,13 @@ export const certifications = [
     duration: 12,
     link: 'https://www.udemy.com/certificate/UC-90d30d39-8e87-4bf1-be66-c531c2e8fc5f/'
   },
+  {
+    title: 'EF SET English Certificate 77/100 (C2 Proficient)',
+    image: 'img/efset.png',
+    platform: 'EF SET',
+    duration: null,
+    link: 'https://www.efset.org/cert/KaKBBr'
+  },
 ]
 
 export const badges = {
@@ -54,4 +69,5 @@ export const badges = {
   postgre: "https://img.shields.io/badge/Postgres-black.svg?style=flat-square&logo=postgresql&logoColor=%23316192",
   sequelize: "https://img.shields.io/badge/Sequelize-black?style=flat-square&logo=Sequelize&logoColor=%52B0E7",
   vercel: "https://img.shields.io/badge/Vercel-black.svg?style=flat-square&logo=vercel&logoColor=%ededed",
+  jwt: "https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens",
 }
