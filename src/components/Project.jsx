@@ -9,10 +9,10 @@ export default function Project({ title, description, gif, techs, deploy, reposi
                 <CardMedia image={gif} sx={{ height: 227 }} />
             </CardActionArea>
             <CardContent sx={{ padding: "10px" }} >
-                <Typography variant="h5" >
+                <Typography variant="h5" style={{ fontFamily: 'Quicksand' }}>
                     {title}
                 </Typography>
-                <Typography variant="body2" >
+                <Typography variant="body2" style={{ fontFamily: 'Quicksand', marginBottom: '6px' }}>
                     {description}
                 </Typography>
                 {

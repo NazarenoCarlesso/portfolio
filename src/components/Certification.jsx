@@ -8,15 +8,15 @@ export default function Certification({ title, image, platform, duration, link }
                 <CardMedia image={image} sx={{ height: 140 }} />
             </CardActionArea>
             <CardContent sx={{ padding: "12px", height: "76px" }} >
-                <Typography variant="subtitle1" title={title} sx={{ maxHeight: "56px", overflowY: "hidden", height: "100%" }} >
+                <Typography variant="subtitle1" title={title} sx={{ maxHeight: "56px", overflowY: "hidden", height: "100%", fontFamily: 'Quicksand' }} >
                     {title}
                 </Typography>
                 <Grid container justifyContent="space-between" direction="row" >
-                    <Typography variant="subtitle2" color="primary" >
+                    <Typography variant="subtitle2" color="primary" style={{ fontFamily: 'Quicksand' }}>
                         {platform}
                     </Typography>
                     {duration
-                        ? <Typography variant="subtitle2" color="primary" >
+                        ? <Typography variant="subtitle2" color="primary" style={{ fontFamily: 'Quicksand' }}>
                             {duration} hs
                         </Typography>
                         : null}

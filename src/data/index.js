@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Medilab Manager',
-    description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
+    description: 'E-commerce for clinical examination laboratories with a patient-friendly interface and administration panel',
     gif: 'img/medilab-manager.gif',
     techs: ['javascript', 'react', 'redux', 'postgre', 'sequelize', 'node', 'express', 'jwt', 'mui', 'html5', 'css3', 'vercel'],
     deploy: 'https://medilab-manager.vercel.app',

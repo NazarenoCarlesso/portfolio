@@ -15,7 +15,7 @@ export default function About() {
                     <Typography variant="h5" sx={{ color: "chartreuse", letterSpacing: "5px", wordSpacing: "10px", lineHeight: 2 }} >
                         FULLSTACK DEVELOPER 👨🏻‍💻
                     </Typography>
-                    <Typography variant="span" >
+                    <Typography variant="span" style={{ fontFamily: 'Quicksand' }}>
                         from  Córdoba, Argentina
                     </Typography>
                     <Box>
