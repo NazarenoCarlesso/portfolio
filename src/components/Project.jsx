@@ -8,7 +8,7 @@ export default function Project({ title, description, gif, techs, deploy, reposi
             <CardActionArea href={deploy} target="_blank" rel="noopener noreferrer">
                 <CardMedia image={gif} sx={{ height: 227 }} />
             </CardActionArea>
-            <CardContent sx={{ padding: "10px" }} >
+            <CardContent sx={{ padding: "10px", height: 130 }} >
                 <Typography variant="h5" style={{ fontFamily: 'Quicksand' }}>
                     {title}
                 </Typography>

@@ -23,6 +23,14 @@ export const projects = [
     deploy: 'https://nazarenocarlesso-rick-and-morty.netlify.app',
     repository: 'https://github.com/NazarenoCarlesso/rick-and-morty'
   },
+  {
+    title: 'Showcase Movies',
+    description: 'React technical interview with focus on useRef, useMemo, useCallback hooks',
+    gif: 'img/showcase-movies.gif',
+    techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
+    deploy: 'https://nazarenocarlesso-movies.netlify.app',
+    repository: 'https://github.com/NazarenoCarlesso/search-movies'
+  },
 ]
 
 export const certifications = [
