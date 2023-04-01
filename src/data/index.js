@@ -35,6 +35,13 @@ export const projects = [
 
 export const certifications = [
   {
+    title: 'Fullstack Developer',
+    image: 'img/henry.jpg',
+    platform: 'Henry',
+    duration: 800,
+    link: 'https://certificates.soyhenry.com/new-cert?id=14cd6ac27770b6ac5955016b91a4c355377b00413e69d4b80397d37d0d116024'
+  },
+  {
     title: 'Node: De cero a experto',
     image: 'https://udemy-certificate.s3.amazonaws.com/image/UC-7bf99d60-dc17-4fb7-8193-d5bc5fe2bd2a.jpg?v=1648223736000',
     platform: 'Udemy',
