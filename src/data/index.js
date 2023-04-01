@@ -31,6 +31,14 @@ export const projects = [
     deploy: 'https://nazarenocarlesso-movies.netlify.app',
     repository: 'https://github.com/NazarenoCarlesso/search-movies'
   },
+  {
+    title: 'Infinite Cats',
+    description: 'React technical interview with focus on data fetching and custom hooks + infinite scroll',
+    gif: 'img/infinite-cats.gif',
+    techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
+    deploy: 'https://nazarenocarlesso-infinite-cats.netlify.app',
+    repository: 'https://github.com/NazarenoCarlesso/cat-facts'
+  },
 ]
 
 export const certifications = [
