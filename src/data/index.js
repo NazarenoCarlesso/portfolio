@@ -57,6 +57,13 @@ export const certifications = [
     link: 'https://www.udemy.com/certificate/UC-7bf99d60-dc17-4fb7-8193-d5bc5fe2bd2a/'
   },
   {
+    title: 'React: De cero a experto',
+    image: 'https://udemy-certificate.s3.amazonaws.com/image/UC-75fda789-c3f1-48ff-8cb9-57252b59fcef.jpg',
+    platform: 'Udemy',
+    duration: 54,
+    link: 'https://www.udemy.com/certificate/UC-75fda789-c3f1-48ff-8cb9-57252b59fcef/'
+  },
+  {
     title: 'JavaScript Moderno: Guía para dominar el lenguaje',
     image: 'https://udemy-certificate.s3.amazonaws.com/image/UC-6611fa71-4738-4f21-b608-b7c99c5d20a8.jpg?v=1648645600000',
     platform: 'Udemy',
@@ -77,6 +84,13 @@ export const certifications = [
     duration: null,
     link: 'https://www.efset.org/cert/KaKBBr'
   },
+  {
+    title: 'Become a Back-End Web Developer',
+    image: 'img/backend.png',
+    platform: 'Linkedin',
+    duration: 22,
+    link: 'https://www.linkedin.com/learning/certificates/ca25a34fc6fa5642b9905a136ab5cc72902cc3c1b39c301bfdede2d1f567a112'
+  }
 ]
 
 export const badges = {
