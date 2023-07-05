@@ -32,12 +32,28 @@ export const projects = [
     repository: 'https://github.com/NazarenoCarlesso/search-movies'
   },
   {
+    title: 'Gif Explorer',
+    description: 'Website to search for GIFs using the Giphy API',
+    gif: 'img/gif-explorer.gif',
+    techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
+    deploy: 'https://nazarenocarlesso-gif-explorer.netlify.app',
+    repository: 'https://github.com/NazarenoCarlesso/gif-explorer'
+  },
+  {
     title: 'Infinite Cats',
     description: 'React technical interview with focus on data fetching and custom hooks + infinite scroll',
     gif: 'img/infinite-cats.gif',
     techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
     deploy: 'https://nazarenocarlesso-infinite-cats.netlify.app',
     repository: 'https://github.com/NazarenoCarlesso/cat-facts'
+  },
+  {
+    title: 'Journal App',
+    description: 'Journal where you can save notes and images to be stored in firebase',
+    gif: 'img/journal-app.gif',
+    techs: ['firebase', 'javascript', 'react', 'html5', 'css3', 'netlify'],
+    deploy: 'https://nazarenocarlesso-journal-app.netlify.app/',
+    repository: 'https://github.com/NazarenoCarlesso/journal-app'
   },
 ]
 
@@ -107,4 +123,5 @@ export const badges = {
   sequelize: "https://img.shields.io/badge/Sequelize-black?style=flat-square&logo=Sequelize&logoColor=%52B0E7",
   vercel: "https://img.shields.io/badge/Vercel-black.svg?style=flat-square&logo=vercel&logoColor=%ededed",
   jwt: "https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens",
+  firebase: "https://img.shields.io/badge/Firebase-black.svg?style=flat-square&logo=firebase",
 }
