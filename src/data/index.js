@@ -23,6 +23,14 @@ export const projects = [
     deploy: 'https://nazarenocarlesso-rick-and-morty.netlify.app',
     repository: 'https://github.com/NazarenoCarlesso/rick-and-morty'
   },
+  // {
+  //   title: 'Heroes Single Page App',
+  //   description: 'Everything about the superheroes that appear in your favorite comics from the different franchises',
+  //   gif: 'img/heroes-spa.gif',
+  //   techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
+  //   deploy: 'https://nazarenocarlesso-heroes-spa.netlify.app',
+  //   repository: 'https://github.com/NazarenoCarlesso/heroes-spa'
+  // },
   {
     title: 'Showcase Movies',
     description: 'React technical interview with focus on useRef, useMemo, useCallback hooks',
@@ -30,6 +38,14 @@ export const projects = [
     techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
     deploy: 'https://nazarenocarlesso-movies.netlify.app',
     repository: 'https://github.com/NazarenoCarlesso/search-movies'
+  },
+  {
+    title: 'React Jeans Store',
+    description: 'React technical interview with focus on useContext, useReducer, useId hooks',
+    gif: 'img/react-store.gif',
+    techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
+    deploy: 'https://nazarenocarlesso-react-store.netlify.app',
+    repository: 'https://github.com/NazarenoCarlesso/react-store'
   },
   {
     title: 'Gif Explorer',
@@ -40,20 +56,20 @@ export const projects = [
     repository: 'https://github.com/NazarenoCarlesso/gif-explorer'
   },
   {
-    title: 'Infinite Cats',
-    description: 'React technical interview with focus on data fetching and custom hooks + infinite scroll',
-    gif: 'img/infinite-cats.gif',
-    techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
-    deploy: 'https://nazarenocarlesso-infinite-cats.netlify.app',
-    repository: 'https://github.com/NazarenoCarlesso/cat-facts'
-  },
-  {
     title: 'Journal App',
     description: 'Journal where you can save notes and images to be stored in firebase',
     gif: 'img/journal-app.gif',
     techs: ['firebase', 'javascript', 'react', 'html5', 'css3', 'netlify'],
     deploy: 'https://nazarenocarlesso-journal-app.netlify.app/',
     repository: 'https://github.com/NazarenoCarlesso/journal-app'
+  },
+  {
+    title: 'Infinite Cats',
+    description: 'React technical interview with focus on data fetching and custom hooks + infinite scroll',
+    gif: 'img/infinite-cats.gif',
+    techs: ['javascript', 'react', 'html5', 'css3', 'netlify'],
+    deploy: 'https://nazarenocarlesso-infinite-cats.netlify.app',
+    repository: 'https://github.com/NazarenoCarlesso/cat-facts'
   },
 ]
 
